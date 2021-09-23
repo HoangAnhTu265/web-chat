@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web chat", "web chat\web chat.csproj", "{839C5E99-1EB5-4C95-BA19-46AAF9EF8E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{475C2FAC-FDDB-4DD6-9194-9C868F0E4B57}"
+	ProjectSection(ProjectDependencies) = postProject
+		{839C5E99-1EB5-4C95-BA19-46AAF9EF8E19} = {839C5E99-1EB5-4C95-BA19-46AAF9EF8E19}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839C5E99-1EB5-4C95-BA19-46AAF9EF8E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839C5E99-1EB5-4C95-BA19-46AAF9EF8E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839C5E99-1EB5-4C95-BA19-46AAF9EF8E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839C5E99-1EB5-4C95-BA19-46AAF9EF8E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475C2FAC-FDDB-4DD6-9194-9C868F0E4B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475C2FAC-FDDB-4DD6-9194-9C868F0E4B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475C2FAC-FDDB-4DD6-9194-9C868F0E4B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475C2FAC-FDDB-4DD6-9194-9C868F0E4B57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83987634-8ECA-43D7-8AC6-DCBA78B7D457}
+	EndGlobalSection
+EndGlobal

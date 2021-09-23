@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebApplication1.ServiceReference1.Chat>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AllChat</title>
+</head>
+<body>
+ 
+    <table class="table">
+
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                <strong>@Html.DisplayFor(modelItem => item.Sender) (@Html.DisplayFor(modelItem => item.SentTime))</strong>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

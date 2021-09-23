@@ -1,0 +1,12 @@
+F:\bài tập c#\WCF application\web chat\web chat\bin\web chat.dll.config
+F:\bài tập c#\WCF application\web chat\web chat\bin\web chat.dll
+F:\bài tập c#\WCF application\web chat\web chat\bin\web chat.pdb
+F:\bài tập c#\WCF application\web chat\web chat\bin\EntityFramework.dll
+F:\bài tập c#\WCF application\web chat\web chat\bin\EntityFramework.SqlServer.dll
+F:\bài tập c#\WCF application\web chat\web chat\bin\System.ComponentModel.Annotations.dll
+F:\bài tập c#\WCF application\web chat\web chat\bin\EntityFramework.xml
+F:\bài tập c#\WCF application\web chat\web chat\bin\EntityFramework.SqlServer.xml
+F:\bài tập c#\WCF application\web chat\web chat\obj\Debug\web chat.csproj.CoreCompileInputs.cache
+F:\bài tập c#\WCF application\web chat\web chat\obj\Debug\web chat.csproj.CopyComplete
+F:\bài tập c#\WCF application\web chat\web chat\obj\Debug\web chat.dll
+F:\bài tập c#\WCF application\web chat\web chat\obj\Debug\web chat.pdb
